@@ -4,20 +4,20 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- ═══════════════════════════════════════════════
-       SEO — helps Google find this for Latvian R6 players
-       ═══════════════════════════════════════════════ -->
   <title>R6Latvija</title>
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMzIgMzIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHJlY3Qgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiBmaWxsPSIjMGEwYTBhIi8+CiAgPHBvbHlnb24gcG9pbnRzPSIxNiwyLjUgMjcuNSw5IDI3LjUsMjMgMTYsMjkuNSA0LjUsMjMgNC41LDkiIGZpbGw9IiNCRTAwMjciLz4KICA8dGV4dCB4PSIxNiIgeT0iMjEuNSIgZm9udC1mYW1pbHk9IkFyaWFsIEJsYWNrLEFyaWFsLHNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSI5MDAiIGZvbnQtc2l6ZT0iMTMiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5SNjwvdGV4dD4KPC9zdmc+" />
-  <meta name="description" content="Latvijas lielākā Rainbow Six Siege spēlētāju kopiena. Pievienojies Discord serverim, atrod citus spēlētājus un seko ENC nacionālajai izlasei." />
+
+  <!-- R6 crosshair favicon — geometric shapes, crisp at every size -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMzIgMzIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHJlY3Qgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiBmaWxsPSIjMGEwYTBhIiByeD0iMyIvPjxjaXJjbGUgY3g9IjE2IiBjeT0iMTYiIHI9IjEwIiBmaWxsPSJub25lIiBzdHJva2U9IiNCRTAwMjciIHN0cm9rZS13aWR0aD0iMi4yIi8+PGxpbmUgeDE9IjE2IiB5MT0iMyIgeDI9IjE2IiB5Mj0iOSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyLjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjxsaW5lIHgxPSIxNiIgeTE9IjIzIiB4Mj0iMTYiIHkyPSIyOSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyLjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjxsaW5lIHgxPSIzIiB5MT0iMTYiIHgyPSI5IiB5Mj0iMTYiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iMi4yIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48bGluZSB4MT0iMjMiIHkxPSIxNiIgeDI9IjI5IiB5Mj0iMTYiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iMi4yIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48Y2lyY2xlIGN4PSIxNiIgY3k9IjE2IiByPSIyLjUiIGZpbGw9IiNCRTAwMjciLz48L3N2Zz4=" />
+
+  <!-- SEO -->
+  <meta name="description" content="Latvijas Rainbow Six Siege spēlētāju kopiena. Pievienojies Discord serverim, atrodi citus spēlētājus un seko ENC izlasei." />
   <meta name="keywords" content="Rainbow Six Siege Latvia, R6 Latvia, R6 Latvija, r6 latvian players, ENC Latvia, Latvijas R6, rainbow six siege latvija, r6s latvia, r6 discord latvia" />
   <meta name="robots" content="index, follow" />
-  <!-- UPDATE THIS once your GitHub Pages URL is live -->
-  <link rel="canonical" href="https://r6latvija.github.io" />
+  <link rel="canonical" href="https://zogzi.github.io/r6latvija/" />
 
-  <!-- Open Graph (looks good when shared on Discord, social, etc.) -->
+  <!-- Open Graph — shows nicely when pasted into Discord / social media -->
   <meta property="og:title" content="R6Latvija — Rainbow Six Siege Kopiena" />
-  <meta property="og:description" content="Latvia's Rainbow Six Siege community. Join the Discord, find teammates, follow the ENC national team." />
+  <meta property="og:description" content="Latvijas Rainbow Six Siege kopiena. Pievienojies Discord serverim." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://zogzi.github.io/r6latvija/" />
 
@@ -27,26 +27,20 @@
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
 
   <style>
-    /* === RESET === */
-    *, *::before, *::after {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
+    /* ── RESET ───────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-    /* === DESIGN TOKENS === */
+    /* ── TOKENS ──────────────────────────────────────── */
     :root {
       --red:          #BE0027;
-      --red-glow:     rgba(190, 0, 39, 0.12);
       --bg:           #080808;
       --surface:      #111111;
       --border:       rgba(255, 255, 255, 0.07);
       --text:         #DEDEDE;
-      --muted:        #666;
+      --muted:        #666666;
       --white:        #FFFFFF;
       --discord:      #5865F2;
       --discord-dark: #4752C4;
-
       --font-display: 'Barlow Condensed', system-ui, sans-serif;
       --font-body:    'Inter', system-ui, sans-serif;
     }
@@ -61,21 +55,18 @@
       overflow-x: hidden;
     }
 
-    /* ═══════════════════════════
-       LATVIAN FLAG BARS
-       ═══════════════════════════ */
+    /* ── LATVIAN FLAG BARS ───────────────────────────── */
     .flag-bar {
       display: block;
       height: 4px;
       background: var(--red);
     }
 
-    /* ═══════════════════════════
-       HERO
-       ═══════════════════════════ */
+    /* ── HERO ────────────────────────────────────────── */
     .hero {
       position: relative;
       min-height: 100vh;
+      min-height: 100svh; /* dynamic viewport — fixes mobile browser chrome */
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -83,9 +74,14 @@
       padding: 5rem 1.5rem 4rem;
       text-align: center;
       overflow: hidden;
+      /* subtle dot-grid texture + soft red glow from top */
+      background-image:
+        radial-gradient(ellipse 80% 45% at 50% 0%, rgba(190, 0, 39, 0.08) 0%, transparent 65%),
+        radial-gradient(circle, rgba(255, 255, 255, 0.028) 1px, transparent 1px);
+      background-size: 100% 100%, 28px 28px;
     }
 
-    /* Giant "LV" country code watermark behind everything */
+    /* giant LV watermark */
     .hero::before {
       content: 'LV';
       position: absolute;
@@ -96,7 +92,7 @@
       font-family: var(--font-display);
       font-weight: 900;
       font-size: clamp(200px, 48vw, 520px);
-      color: rgba(190, 0, 39, 0.032);
+      color: rgba(190, 0, 39, 0.028);
       letter-spacing: -0.04em;
       pointer-events: none;
       user-select: none;
@@ -124,6 +120,8 @@
       color: var(--white);
       position: relative;
       margin-bottom: 0.18em;
+      /* subtle depth glow */
+      text-shadow: 0 0 80px rgba(190, 0, 39, 0.14);
     }
 
     .hero-title .red { color: var(--red); }
@@ -131,21 +129,21 @@
     .hero-sub {
       font-family: var(--font-display);
       font-weight: 400;
-      font-size: clamp(0.9rem, 2.4vw, 1.25rem);
+      font-size: clamp(0.88rem, 2.4vw, 1.2rem);
       letter-spacing: 0.2em;
       text-transform: uppercase;
       color: var(--muted);
-      margin-bottom: 3rem;
+      margin-bottom: 2.75rem;
       position: relative;
     }
 
-    /* Latvia flag mini icon next to subtitle */
+    /* tiny Latvian flag inline */
     .flag-icon {
       display: inline-block;
-      width: 1.4em;
-      height: 0.9em;
+      width: 1.35em;
+      height: 0.88em;
       vertical-align: middle;
-      margin-right: 0.5em;
+      margin-right: 0.45em;
       border-radius: 1px;
       overflow: hidden;
       flex-shrink: 0;
@@ -153,12 +151,11 @@
       top: -1px;
     }
 
-    /* ═══════════════════════════
-       DISCORD BUTTON
-       ═══════════════════════════ */
+    /* ── DISCORD BUTTON ──────────────────────────────── */
     .btn-discord {
       display: inline-flex;
       align-items: center;
+      justify-content: center;
       gap: 0.65rem;
       background: var(--discord);
       color: var(--white);
@@ -166,16 +163,20 @@
       font-size: 1rem;
       font-weight: 600;
       text-decoration: none;
-      padding: 0.9rem 2.1rem;
-      border-radius: 3px;
+      padding: 1rem 2.25rem;
+      border-radius: 4px;
       position: relative;
-      transition: background 0.15s, transform 0.15s;
+      white-space: nowrap;
+      transition: background 0.18s, transform 0.18s, box-shadow 0.18s;
     }
 
     .btn-discord:hover {
       background: var(--discord-dark);
-      transform: translateY(-2px);
+      transform: translateY(-3px);
+      box-shadow: 0 10px 30px rgba(88, 101, 242, 0.45);
     }
+
+    .btn-discord:active  { transform: translateY(-1px); }
 
     .btn-discord:focus-visible {
       outline: 2px solid var(--discord);
@@ -191,15 +192,13 @@
 
     .hero-hint {
       margin-top: 1rem;
-      font-size: 0.76rem;
+      font-size: 0.75rem;
       color: var(--muted);
       letter-spacing: 0.05em;
       position: relative;
     }
 
-    /* ═══════════════════════════
-       DIVIDER
-       ═══════════════════════════ */
+    /* ── DIVIDER ─────────────────────────────────────── */
     .divider {
       display: block;
       border: none;
@@ -210,9 +209,7 @@
       width: calc(100% - 3rem);
     }
 
-    /* ═══════════════════════════
-       INFO CARDS
-       ═══════════════════════════ */
+    /* ── CARDS ───────────────────────────────────────── */
     .cards {
       max-width: 920px;
       margin: 0 auto;
@@ -227,6 +224,13 @@
       border: 1px solid var(--border);
       border-top: 2px solid var(--red);
       padding: 1.75rem;
+      transition: transform 0.22s ease, box-shadow 0.22s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 14px 40px rgba(0, 0, 0, 0.5),
+                  0 0 0 1px rgba(190, 0, 39, 0.18);
     }
 
     .card-label {
@@ -254,45 +258,52 @@
       color: var(--muted);
     }
 
-    /* ═══════════════════════════
-       FOOTER
-       ═══════════════════════════ */
+    /* ── FOOTER ──────────────────────────────────────── */
     .footer {
       text-align: center;
-      padding: 1.5rem 1.5rem;
+      padding: 1.5rem;
       font-size: 0.7rem;
-      color: #333;
+      color: #333333;
       letter-spacing: 0.06em;
     }
 
-    .footer a { color: #444; text-decoration: none; }
+    .footer a { color: #444444; text-decoration: none; }
     .footer a:hover { color: var(--muted); }
 
-    /* ═══════════════════════════
-       MOBILE
-       ═══════════════════════════ */
-    @media (max-width: 480px) {
-      .hero          { padding: 3.5rem 1.25rem 3rem; }
-      .btn-discord   { font-size: 0.9rem; padding: 0.85rem 1.5rem; }
-      .cards         { padding: 3rem 1.25rem; }
+    /* ── MOBILE (<600px) ─────────────────────────────── */
+    @media (max-width: 600px) {
+      .hero {
+        padding: 3.5rem 1.25rem 3rem;
+      }
+
+      /* button stretches to near-full width — easier to tap */
+      .btn-discord {
+        width: min(100%, 340px);
+        font-size: 1rem;
+        padding: 1rem 1.5rem;
+      }
+
+      .cards {
+        grid-template-columns: 1fr;
+        padding: 2.75rem 1.25rem;
+        gap: 1rem;
+      }
     }
 
-    /* ═══════════════════════════
-       REDUCED MOTION
-       ═══════════════════════════ */
+    /* ── REDUCED MOTION ──────────────────────────────── */
     @media (prefers-reduced-motion: reduce) {
-      .btn-discord { transition: none; }
+      .btn-discord,
+      .card { transition: none; }
     }
   </style>
 </head>
 <body>
 
-  <!-- Top flag bar -->
   <span class="flag-bar" aria-hidden="true"></span>
 
   <main>
 
-    <!-- ════════════════ HERO ════════════════ -->
+    <!-- ══════════════ HERO ══════════════ -->
     <section class="hero" aria-label="R6Latvija">
 
       <p class="hero-eyebrow">Rainbow Six Siege &nbsp;·&nbsp; Latvija</p>
@@ -304,15 +315,11 @@
       <p class="hero-sub">
         <svg class="flag-icon" viewBox="0 0 30 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
           <rect width="30" height="20" fill="#9E3039"/>
-          <rect y="7" width="30" height="6" fill="#fff"/>
+          <rect y="7" width="30" height="6" fill="#ffffff"/>
         </svg>
         Latvijas Kopiena &nbsp;·&nbsp; Latvia's R6 Community
       </p>
 
-      <!-- ═══════════════════════════════════════════════════════════
-           ⚠️  REPLACE THE LINK BELOW WITH YOUR REAL DISCORD INVITE
-               Example: https://discord.gg/abc123xyz
-           ═══════════════════════════════════════════════════════════ -->
       <a
         href="https://discord.gg/nQ8fXENh6W"
         class="btn-discord"
@@ -320,20 +327,20 @@
         rel="noopener noreferrer"
         aria-label="Pievienojies R6Latvija Discord serverim"
       >
+        <!-- Discord logo — full path with evenodd eye holes -->
         <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <!-- Full Discord logo with eyes — fill-rule="evenodd" creates the eye holes -->
           <path fill-rule="evenodd" clip-rule="evenodd" d="M20.317 4.3712C18.7873 3.6737 17.147 3.1662 15.432 2.86C15.4051 2.8552 15.3782 2.8675 15.3646 2.892C15.1453 3.2875 14.9056 3.8017 14.7352 4.205C12.9078 3.9192 11.0894 3.9192 9.29875 4.205C9.12825 3.7925 8.87975 3.2875 8.65944 2.892C8.64581 2.8682 8.61888 2.856 8.59194 2.86C6.87725 3.1655 5.23694 3.673 3.70656 4.3712C3.69544 4.376 3.68594 4.384 3.67975 4.3945C0.533688 9.093 -0.31875 13.6805 0.0993125 18.2115C0.101125 18.2335 0.113375 18.2545 0.130563 18.2679C2.18306 19.7564 4.17169 20.684 6.12431 21.299C6.15125 21.3075 6.18 21.2978 6.19706 21.2745C6.66769 20.6285 7.08844 19.9472 7.44906 19.2312C7.47769 19.175 7.44994 19.1077 7.39106 19.0842C6.73094 18.8377 6.10219 18.538 5.49781 18.1965C5.43269 18.159 5.42775 18.0657 5.48769 18.0222C5.61313 17.9291 5.73856 17.8324 5.85838 17.7349C5.87713 17.7192 5.90319 17.7155 5.92581 17.726C9.88494 19.5122 14.1516 19.5122 18.0626 17.726C18.0852 17.7148 18.1113 17.7185 18.1309 17.7342C18.2507 17.8317 18.3761 17.9291 18.5024 18.0222C18.5623 18.0657 18.5582 18.159 18.4931 18.1965C17.8888 18.5447 17.2601 18.8377 16.5991 19.0833C16.5403 19.1068 16.5134 19.175 16.542 19.2312C16.9115 19.946 17.3323 20.6274 17.7939 21.2736C17.8101 21.2978 17.8397 21.3075 17.8666 21.299C19.8286 20.684 21.8173 19.7564 23.8698 18.2679C23.8878 18.2545 23.8992 18.2343 23.901 18.2123C24.3987 12.9922 23.0503 8.4445 20.3476 4.3952C20.3423 4.384 20.3328 4.376 20.317 4.3712ZM8.02013 15.3316C6.8375 15.3316 5.86313 14.2427 5.86313 12.9063C5.86313 11.5699 6.81963 10.481 8.02013 10.481C9.23 10.481 10.1963 11.5791 10.177 12.9063C10.177 14.2427 9.22063 15.3316 8.02013 15.3316ZM15.9948 15.3316C14.8123 15.3316 13.8378 14.2427 13.8378 12.9063C13.8378 11.5699 14.7943 10.481 15.9948 10.481C17.2047 10.481 18.171 11.5791 18.1518 12.9063C18.1518 14.2427 17.2055 15.3316 15.9948 15.3316Z"/>
         </svg>
         Pievienojies Discord serverim
       </a>
 
-      <p class="hero-hint">Free to join · Open to all Latvian R6 players</p>
+      <p class="hero-hint">Bezmaksas · Visi Latvijas R6 spēlētāji ir laipni gaidīti</p>
 
     </section>
 
     <hr class="divider" />
 
-    <!-- ════════════════ INFO CARDS ════════════════ -->
+    <!-- ══════════════ CARDS ══════════════ -->
     <section class="cards" aria-label="Par R6Latvija">
 
       <article class="card">
@@ -358,7 +365,7 @@
         <p class="card-label">Spēlē kopā</p>
         <h2 class="card-title">Atrodi Komandas Biedrus</h2>
         <p class="card-text">
-          Ranked vai casual - šeit var atrast citus Latvijas R6 spēlētājus.
+          Ranked vai casual — šeit var atrast citus Latvijas R6 spēlētājus.
         </p>
       </article>
 
@@ -366,11 +373,10 @@
 
   </main>
 
-  <!-- Bottom flag bar -->
   <span class="flag-bar" aria-hidden="true"></span>
 
   <footer class="footer">
-    <p>R6Latvija &nbsp;·&nbsp; Not affiliated with Ubisoft.</p>
+    <p>R6Latvija &nbsp;·&nbsp; Nav saistīts ar Ubisoft.</p>
   </footer>
 
 </body>
