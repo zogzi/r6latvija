@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zogzi.github.io/r6latvija/sitemap.xml
